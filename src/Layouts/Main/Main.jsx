@@ -6,8 +6,10 @@ import './Main.css';
 const Main = () => {
     return (
         <div className="main-container">
-            <Navbar />
-            <Outlet />
+            <div>
+                <Navbar />
+                <Outlet />
+            </div>
         </div>
     )
 }
