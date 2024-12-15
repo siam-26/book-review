@@ -80,6 +80,7 @@ a {
         position: fixed;
         top: 0;
         right: 0px;
+        z-index: 2;
         max-width: 200px;
         height: 48vh;
     }

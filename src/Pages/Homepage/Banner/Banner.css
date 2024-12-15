@@ -1,0 +1,128 @@
+.banner-parent{
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    margin-top: 3%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    width:90%;
+    margin:auto;
+    padding:2% 0;
+}
+
+.title-div{
+    /* width:50%; */
+}
+
+.title{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.banner-button{
+    margin-top: 5%;
+    border: none;
+    border-radius: 8px;
+    padding: 2% 4%;
+    color: white;
+    font-weight: bold;
+}
+
+.img-div{
+    /* width:50%; */
+    text-align: center;
+}
+
+.banner-image{
+    width:318px;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner-container{
+        display: flex;
+    }
+
+    .title-div{
+        text-align: center;
+    }
+
+    .title{
+        font-size: 15px;
+        padding:0 2%;
+    }
+
+    .banner-image{
+        width:140px;
+        rotate: 30deg;
+    }
+}
+
+
+/* Extra small devices(portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+    .banner-container{
+        display: flex;
+    }
+
+    .title-div{
+        text-align: center;
+    }
+
+    .title{
+        padding:0 2%;
+    }
+
+    .banner-image{
+        width:200px;
+        rotate: initial;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .banner-container{
+        padding:3% 0;
+    }
+
+    .title-div{
+        text-align: initial;
+    }
+
+    .title{
+        font-size: 47px;
+        padding: initial;
+    }
+
+    .banner-image{
+        width:250px;
+        rotate: 30deg;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 900px) {
+    .title{
+        font-size: 45px;
+    }
+
+    .banner-image{
+        width:318px;
+        rotate: initial;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1100px and up) */
+@media only screen and (min-width: 1100px) {
+    .title{
+        font-size: 56px;
+    }
+} 
