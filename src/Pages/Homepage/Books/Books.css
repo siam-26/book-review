@@ -1,0 +1,138 @@
+.container {
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+.home-books-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.books-parent-container {
+    border-radius: 10px;
+    border: 1px solid #dbd2d2;
+    /* width: 298px;
+    height: auto; */
+}
+
+.books-child-container {
+    /* width:90%; */
+    /* margin:auto; */
+    margin: 6%;
+    /* background-color: red; */
+}
+
+.book-image-container {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 250px; */
+    height: 230px;
+}
+
+.book-img {
+    width: 124px;
+    height: 166px;
+    padding: 3% 0;
+}
+
+/* book-adult-container */
+.book-adult-container {
+    display: flex;
+    gap: 50px;
+    color: #23BE0A;
+    font-weight: bold;
+    margin-top: 6%;
+}
+
+.book-content {
+    background-color: #F3F3F3;
+    padding: 3% 3%;
+    border-radius: 10px;
+}
+
+/* book-name-author-container */
+.book-name-author-container {
+    border-bottom: 1px dashed #afaaaa;
+    margin-top: 8%;
+}
+
+.book-name {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+.author-name {
+    margin: 4% 0 3% 0;
+    font-size: 14px;
+}
+
+
+/* book-category */
+
+.book-category {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+
+.span-div {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+}
+
+.rating-star-icon {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+
+    .home-books-title {
+        font-size: 30px;
+    }
+
+    .parent-div {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        margin-top: 3%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        margin-bottom: 6%;
+    }
+
+    .parent-div {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        margin-top: 3%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1024px) {
+    .parent-div {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+        margin-top: 3%;
+    }
+}

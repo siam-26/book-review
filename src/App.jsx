@@ -1,9 +1,9 @@
-import Banner from "./Pages/Homepage/Banner/Banner"
+import Home from "./Pages/Homepage/Home"
 
 function App() {
   return (
     <>
-      <Banner />
+      <Home />
     </>
   )
 }
